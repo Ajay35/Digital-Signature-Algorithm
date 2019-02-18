@@ -49,7 +49,7 @@ def main():
     c=int(hex_dig,16)
     print('c',c)
 
-    s=(a*c+r)%(q-1)
+    s=a*c+r%q
 
     message='20'+' '+str(c)+' '+str(s)+' '+m
     soc.sendall(message.encode("utf8"))
