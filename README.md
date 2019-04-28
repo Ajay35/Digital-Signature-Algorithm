@@ -1,5 +1,5 @@
 # Digital-Signature-Algorithm
 
-Client Server Model for Diffie-Hellman key exchange
+Client Server Model for Digital Signature Algorithm
 
 Part of course work for SNS @ IIITH
